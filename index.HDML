@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">sanjay</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="section home-section">
+    <h1>Hi, I'm sanjay</h1>
+    <p>Web Developer | Designer | Creator</p>
+  </section>
+
+  <section id="about" class="section about-section">
+    <h2>About Me</h2>
+    <p>
+      I'm a passionate web developer with experience in building modern and responsive websites.
+      I love creating beautiful and functional digital experiences.
+    </p>
+  </section>
+
+  <section id="projects" class="section projects-section">
+    <h2>My Projects</h2>
+    <div class="projects-container">
+      <div class="project-card">
+        <h3>Project One</h3>
+        <p>A cool project description goes here.</p>
+      </div>
+      <div class="project-card">
+        <h3>Project Two</h3>
+        <p>Another awesome project description.</p>
+      </div>
+      <div class="project-card">
+        <h3>Project Three</h3>
+        <p>Yet another amazing project.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact-section">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="sanjay" required />
+      <input type="email" placeholder="sanjaysanjayc10@gmail.com" required />
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 sanjay. All rights reserved.</p>
+  </footer>
+</body>
+</html>
